@@ -1,0 +1,38 @@
+{
+  "name": "pangza",
+  "version": "2.0.0",
+  "description": "Pangza CLI — pangza init / pangza g controller|service|mapper|entity|all",
+  "bin": {
+    "pangza": "./bin/pangza.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "template",
+    "README.md"
+  ],
+  "keywords": [
+    "pangza",
+    "express",
+    "scaffold",
+    "init",
+    "generate",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lx-ayan/pangza-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lx-ayan/pangza-cli/issues"
+  },
+  "homepage": "https://github.com/lx-ayan/pangza-cli#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
