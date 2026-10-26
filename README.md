@@ -20,6 +20,9 @@ pangza init my-app --modules=orm,auth,redis --db=mysql
 交互勾选模块：`orm` / `auth` / `redis` / `log` / `schedule` / `encrypt` / `validate`。  
 勾选 `orm` / `redis` 时会写入 `EnableOrm()` / `EnableRedis()`。
 
+`init` 时会请求 npm 查询 `@pangza/core` 最新版本，写入 `package.json` 为 `^x.y.z`（离线则回退内置版本）。  
+强制指定版本：`PANGZA_VERSION=1.0.2 pangza init my-app`。
+
 初始化还会生成：
 - `application.yaml`：默认 `server.port: 5270`
 - `tsconfig.json`：`@/*` → `src/*`
