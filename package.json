@@ -1,6 +1,6 @@
 {
   "name": "pangza",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "Pangza CLI — pangza init / pangza g controller|service|mapper|entity|all",
   "bin": {
     "pangza": "./bin/pangza.js"
