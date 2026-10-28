@@ -52,10 +52,3 @@ src/mapper/user.ts
 src/service/user.ts
 src/controller/user/index.ts   → /api/user
 ```
-
-## 发布
-
-```bash
-cd pangza-cli
-npm publish --access public --registry=https://registry.npmjs.org
-```
